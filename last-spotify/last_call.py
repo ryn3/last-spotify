@@ -28,7 +28,7 @@ class LastExtract(object):
         
         tag_input = input("input a tag: ")
         
-        recent_tracks = u.get_recent_tracks(limit=500,time_from=init_time, time_to=final_time)
+        recent_tracks = u.get_recent_tracks(limit=1000,time_from=init_time, time_to=final_time)
         track_list = []
         for track in recent_tracks:
             title = track.track.title
@@ -41,11 +41,15 @@ class LastExtract(object):
                 tag = tag.item
                 tag_name = tag.get_name()
                 tag_list.append(tag_name)
-            if tag_input in tag_list:
-                #track_list.append(track)
-                track_item = str(artist)+" "+str(title)
-                track_list.append(track_item)
-                print(track.playback_date+" -- "+track_item)
+            #print(str(artist) +": "+str(title))
+            #print(tag_list)
+            #print()
+            for tag_item in tag_list: 
+                if tag_input.lower() in tag_item.lower():
+                    #track_list.append(track)
+                    track_item = str(artist)+" "+str(title)
+                    track_list.append(track_item)
+                    print(track.playback_date+" -- "+track_item)
         track_list = list(dict.fromkeys(track_list))
         #print(track_list)
         self.track_list = track_list
