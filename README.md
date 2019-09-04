@@ -1,6 +1,6 @@
 # last-spotify
 
-This app creates Spotify playlists based on your Last.fm scrobbles. 
+This app creates Spotify playlists based on your Last.fm scrobbles. Input a scrobble date-range and a tag (genre/subgenre) to retrieve your songs for your playlist. The app by default filters any duplicates. 
 
 **Using this app requires that you have at least some scrobbles, as the playlists only contains previously played songs**
 
