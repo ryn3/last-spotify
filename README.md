@@ -1,4 +1,4 @@
-#last-spotify
+# last-spotify
 
 This app creates Spotify playlists based on your Last.fm scrobbles. 
 
