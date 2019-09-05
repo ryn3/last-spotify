@@ -60,5 +60,13 @@ def add_tracks(p_id, t_id):
 
 id = create_playlist()
 tracks = get_ids()
-add_tracks(id, tracks)
+while tracks:
+    try:
+        temp = []
+        next_list = []
+        temp = tracks[:99]
+        add_tracks(id,temp)
+        tracks = tracks[99:]
+    except:
+        print('done')
 
