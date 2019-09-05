@@ -12,10 +12,10 @@ class LastExtract(object):
 
     def get_track_list(self):
 
-        API_KEY = '86530cb3204f829e6a1f1c05d61bf230'
-        API_SECRET = 'f338589f5f80231349672dd48cf5b50b'
-        username = 'verve3349'
-        password_hash = pylast.md5('Leeryan14*')
+        API_KEY = 'paste your API key here'
+        API_SECRET = 'paste your API secret here'
+        username = 'enter your username'
+        password_hash = pylast.md5('enter your password')
 
         n = pylast.LastFMNetwork(api_key=API_KEY, api_secret=API_SECRET, username=username, password_hash=password_hash)
         u = pylast.User(user_name=username,network=n)
