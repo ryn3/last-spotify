@@ -18,7 +18,7 @@ Be sure to immediately copy your API key and secret, since last.fm doesn't allow
 
 ### 1.5. Create Spotify App (Authentication pt 2)
 
-Sign in to Spotify and go to <https://www.developer.spotify.com/dashboard/applications> in order to create your own application with unique client id, secret, and redirect uri. 
+Sign in to Spotify and go to <https://developer.spotify.com/dashboard/applications> in order to create your own application with unique client id, secret, and redirect uri. 
 
 Using the text editor of your choice, paste your client id, secret, and redirect uri into the variables found in `spotify-creds.sh
 
@@ -49,8 +49,7 @@ Select the time period you want. For example inputting 190601 and 190701 will te
 
 Then input a single tag (for the purposes of this app, this is the equivalent of genre/subgenre) to tell the app which tag to put into the playlist. Continuing from the above inputs, the tag 'classical' will retrieve scrobbles containing the tag 'classical' from 6/1/19 to 7/1/19. 
 
-**I've chosen to use artist tags, as I've found that these tags usually have more accurate and precise information on the inidividual track genre/subgenre. For example, "Tea Leaf Dancers" by Flying Lotus will return artist tags from the artist, Flying Lotus.**
-
+**I've chosen to use artist tags, as I've found that these tags usually have more accurate and precise information on the individual track genre/subgenre. For example, "Tea Leaf Dancers" by Flying Lotus will return artist tags from the artist, Flying Lotus.**
  
 
  
