@@ -12,7 +12,7 @@ colorama==0.3.7
 command-not-found==0.3
 configobj==5.0.6
 constantly==15.1.0
-cryptography==2.7
+cryptography==3.2
 -e git+https://github.com/savoy1211/discogs-cli.git@cf0eb27283ea0e41cd61423f161c663df52d90e5#egg=discogs_cli
 discogs-cli-savoy1211==1.1.0
 discogs-client==2.2.1
