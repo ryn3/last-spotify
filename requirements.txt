@@ -46,7 +46,7 @@ pycrypto==2.6.1
 Pygments==2.4.2
 pygobject==3.26.1
 PyHamcrest==1.9.0
-PyJWT==1.5.3
+PyJWT==2.4.0
 pylast==3.2.0.dev0
 pymongo==3.9.0
 pyOpenSSL==17.5.0
